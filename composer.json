@@ -4,7 +4,6 @@
     "keywords": ["yii2-widget", "persian", "datepicker"],
     "homepage": "https://github.com/parsa53/yii2-widget-persian-date-picker",
     "type": "yii2-extension",
-    "minimum-stability": "stable",
     "require": {
         "yiisoft/yii2": "~2.0.0"
     },
