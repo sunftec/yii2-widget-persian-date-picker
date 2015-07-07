@@ -9,7 +9,6 @@ namespace parsa53\datepicker;
 use yii\base\InvalidConfigException;
 use yii\helpers\Html;
 use yii\widgets\InputWidget;
-use Yii;
 
 /**
  * Persian date picker
