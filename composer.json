@@ -1,16 +1,12 @@
 {
     "name": "parsa53/yii2-widget-persian-date-picker",
     "description": "Yii2 persian date picker re-packaged for Packagist/Composer",
-    "require": {
-        "yiisoft/yii2": "*"
-    },
     "authors": [
         {
             "name": "ahmad m.rezaei",
             "homepage": "http://mihandev.net"
         }
     ],
-    "minimum-stability": "stable",
     "autoload": {
         "psr-4": {
             "parsa53\\yii2-widget-persian-date-picker\\": ""
