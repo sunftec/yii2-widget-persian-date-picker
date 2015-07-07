@@ -9,8 +9,9 @@
     ],
     "minimum-stability": "stable",
     "require": {
-
+        "parsa53\\yii2-widget-persian-date-picker\\": "dev-master#v2.0.0"
     },
+    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "parsa53\\yii2-widget-persian-date-picker\\": ""
