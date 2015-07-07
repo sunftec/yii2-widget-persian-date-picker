@@ -1,5 +1,5 @@
 {
-    "name": "parsa53/yii2-widget-persianDatePicker",
+    "name": "parsa53/yii2-widget-persian-date-picker",
     "description": "Yii2 persian date picker re-packaged for Packagist/Composer",
     "require": {
         "yiisoft/yii2": "*"
@@ -12,7 +12,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "parsa53\\yii2-widget-persianDatePicker\\": ""
+            "parsa53\\yii2-widget-persian-date-picker\\": ""
         }
     }
 }
