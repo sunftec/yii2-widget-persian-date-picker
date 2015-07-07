@@ -1,12 +1,13 @@
 {
     "name": "parsa53/yii2-widget-persian-date-picker",
     "description": "Yii2 persian date picker re-packaged for Packagist/Composer",
+    "keywords": ["yii2-widget", "persian", "datepicker"],
+    "homepage": "https://github.com/parsa53/yii2-widget-persian-date-picker",
+    "type": "yii2-extension",
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.4.0",
-        "yiisoft/yii2": ">=2.0.4"
+        "yiisoft/yii2": "~2.0.0"
     },
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "parsa53\\yii2-widget-persian-date-picker\\": ""
