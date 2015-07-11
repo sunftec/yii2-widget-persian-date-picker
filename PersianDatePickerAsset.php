@@ -12,7 +12,7 @@ use yii\web\AssetBundle;
  */
 class PersianDatePickerAsset extends AssetBundle
 {
-    public $sourcePath = 'vendor/parsa53/yii2-widget-persianDatePicker/src';
+    public $sourcePath = '@vendor/parsa53/yii2-widget-persian-date-picker/src';
     public $css = [
         'css/adatepicker-main.css',
     ];

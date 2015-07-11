@@ -21,9 +21,8 @@ class PersianDatePicker extends InputWidget
     public function run()
     {
         if ($this->hasModel()) {
-            $id = $this->options['id'];
             echo $field  = Html::activeTextInput($this->model, $this->attribute, $this->options);
-            echo $field2 = Html::activeHiddenInput($this->model, $this->attribute, ['id' => $id . '-hidden']);
+            echo $field2 = Html::activeHiddenInput($this->model, $this->attribute, ['id' => $this->options['id'] . '-hidden']);
         } else {
             echo $field  = Html::textInput($this->name, $this->value, $this->options);
             echo $field2 = Html::hiddenInput($this->name, $this->value, ['id' => $id . '-hidden']);
@@ -36,7 +35,6 @@ class PersianDatePicker extends InputWidget
      */
     public function registerClientScript()
     {
-        require 'PersianDatePickerAsset.php';
         $view = $this->getView();
         PersianDatePickerAsset::register($view);
         $id = $this->options['id'];

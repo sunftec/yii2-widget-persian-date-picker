@@ -9,7 +9,7 @@
     },
     "autoload": {
         "psr-4": {
-            "parsa53\\yii2-widget-persian-date-picker\\": ""
+            "parsa53\\datepicker\\": ""
         }
     }
 }
